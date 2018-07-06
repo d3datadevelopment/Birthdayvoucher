@@ -1,0 +1,8 @@
+Ident:
+d3birthdayvouchersubjectmail
+
+Title:
+Geburtstags-EMail Betreff-Text
+
+Content:
+Ihr Gutschein zum Geburtstag!

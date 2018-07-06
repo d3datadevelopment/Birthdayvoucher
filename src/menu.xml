@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="d3mxd3modules">
+        <MAINMENU id="d3mxd3birthdayvoucher">
+            <SUBMENU id="d3cfgd3birthdayvoucher" cl="d3_d3birthdayvoucher_main" list="d3_d3birthdayvoucher_list" rights="malladmin">
+               <TAB id="d3tbcld3birthdayvoucher_settings_main" cl="d3_d3birthdayvoucher_settings" />
+               <TAB id="d3tbcld3birthdayvoucher_settings_agelimit" cl="d3_d3birthdayvoucher_agelimit" />
+               <TAB id="d3tbcl_licence" cl="d3_d3birthdayvoucher_licence" />
+            </SUBMENU>
+            <SUBMENU id ="d3mxlog" cl="d3_d3birthdayvoucher_log" list="d3_d3birthdayvoucher_loglist">
+                <TAB id="d3tbcllog_main" cl="d3_cfg_log_main" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>

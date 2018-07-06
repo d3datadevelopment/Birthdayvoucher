@@ -1,0 +1,18 @@
+Ident:
+d3bvreminderexpirationmailplain
+
+Titel:
+Geburtstags-EMail Text
+
+
+Content:
+Guten Tag [{ $user->oxuser__oxsal->value|oxmultilangsal }] [{ $user->oxuser__oxfname->value }] [{ $user->oxuser__oxlname->value }],
+
+Ihr Geburtstagsgutschein verfällt am [{$voucher->oxvouchers__d3voucherexpirationdate->value|date_format:"%d.%m.%Y"}]! Sichern Sie sich noch schnell den [{$voucherserie->oxvoucherseries__oxdiscount->value|string_format:"%.2f"|replace:".":","}] [{$currency->sign}] Geburtstagsrabatt!
+
+Öffnen Sie unseren Shop unter [{$shop->oxshops__oxurl->value}],legen Sie einen gewünschten Artikel in den Warenkorb und tragen Sie dort die folgende Gutscheinnummer ein: [{$voucher->oxvouchers__oxvouchernr->value}]
+
+
+Noch einen schönen Tag wünscht
+Ihr  [{ $shop->oxshops__oxname->value }] Team
+

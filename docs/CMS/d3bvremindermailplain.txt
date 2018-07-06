@@ -1,0 +1,17 @@
+Ident:
+d3bvremindermailplain
+
+Title:
+Geburtstags-EMail Plain-Text
+
+Content:
+Guten Tag [{$user->oxuser__oxsal->value|oxmultilangsal}] [{$user->oxuser__oxfname->value}] [{$user->oxuser__oxlname->value}],
+
+Ihr Geburtstagsgutschein wurde noch nicht eingelöst! Sichern Sie sich schnell noch die [{$voucherserie->oxvoucherseries__oxdiscount->value|string_format:"%.2f"|replace:".":","}] [{$currency->sign}] Geburtstagsrabatt!
+
+Öffnen Sie unseren Shop unter [{$shop->oxshops__oxurl->value}], legen Sie einen gewünschten Artikel in den Warenkorb und tragen Sie dort die folgende Gutscheinnummer ein: [{$voucher->oxvouchers__oxvouchernr->value}]
+
+
+Noch einen schönen Tag wünscht
+
+Ihr  [{$shop->oxshops__oxname->value}] Team

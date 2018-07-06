@@ -1,0 +1,8 @@
+Ident:
+d3bvreminderexpirationsubject
+
+Title:
+Ihr Geburtstagsgutschein ist nur noch wenige Tage gültig!
+
+Content:
+Ihr Geburtstagsgutschein ist nur noch wenige Tage gültig!

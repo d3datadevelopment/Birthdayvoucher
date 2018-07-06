@@ -1,0 +1,19 @@
+Ident:
+d3bvremindermailhtml
+
+Title:
+Erinnerung: Sie haben vor wenigen Tagen einen Geburtstagsgutschein erhalten:
+
+Content:
+Guten Tag [{$user->oxuser__oxsal->value|oxmultilangsal}] [{$user->oxuser__oxfname->value}] [{$user->oxuser__oxlname->value}],<br><br>
+
+Ihr Geburtstagsgutschein wurde noch nicht eingelöst! Sichern Sie sich schnell noch die [{$voucherserie->oxvoucherseries__oxdiscount->value|string_format:"%.2f"|replace:".":","}] [{$currency->sign}] Geburtstagsrabatt!
+<br>
+<br>
+Öffnen Sie unseren Shop unter [{$shop->oxshops__oxurl->value}], legen Sie einen gewünschten Artikel in den Warenkorb und tragen Sie dort die folgende Gutscheinnummer ein: <strong>[{$voucher->oxvouchers__oxvouchernr->value}]</strong>
+<br>
+
+<br />
+Noch einen schönen Tag wünscht</p>
+<p>Ihr  [{$shop->oxshops__oxname->value}] Team </p>
+<br>

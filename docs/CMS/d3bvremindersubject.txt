@@ -1,0 +1,8 @@
+Ident:
+d3bvremindersubject
+
+Title:
+Geburtstags-EMail Betreff-Text
+
+Content:
+Erinnerung: Sie haben vor wenigen Tagen einen Geburtstagsgutschein erhalten:

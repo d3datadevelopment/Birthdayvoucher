@@ -1,0 +1,33 @@
+Ident:
+d3birthdayvoucherplainmail
+
+Title:
+Geburtstags-EMail Plain-Text
+
+Content:
+Guten Tag [{ $user->oxuser__oxsal->value|oxmultilangsal }] [{ $user->oxuser__oxfname->value }] [{ $user->oxuser__oxlname->value }],
+
+Ihr [{ $shop->oxshops__oxname->value }] möchte Ihnen ganz herzlich zum Geburtstag gratulieren.
+
+Als kleines Präsent senden wir Ihnen im Folgenden einen Gutschein im Wert von [{$voucherserie->oxvoucherseries__oxdiscount->value|string_format:"%.2f"|replace:".":","}] [{if $voucherserie->oxvoucherseries__oxdiscounttype->value == "absolute"}]EUR[{else}]%[{/if}] zu.
+
+
+Ihre persönlicher Geburtstagsgutschein-Nr. lautet: [{$voucher->oxvouchers__oxvouchernr->value}]*
+
+Und so einfach gehts:
+Gehen Sie in unseren Onlineshop unter [{ $shop->oxshops__oxurl->value }].
+Stöbern Sie in Ruhe unter der Vielzahl an Artikeln und legen Sie die gewünschten Produkte in den Warenkorb.
+Klicken Sie nun auf den Warenkorb um eine Übersicht Ihrer gewählten Artikel zu sehen.
+Unter der Artikelliste finden Sie das Eingabefeld für den Gutscheincode.
+Geben Sie diesen dort ein, bestätigen Sie die Eingabe und führen Sie den Bestellvorgang ganz normal durch.
+
+In Schritt 4 des Bestellvorgangs sehen Sie nun in der Zusammenfassung den abgezogenen Gutscheinwert.
+
+Noch einen schönen Tag wünscht
+
+Ihr  [{ $shop->oxshops__oxname->value }] Team
+
+
+*Der Gutschein ist gültig bis: [{$voucher->oxvouchers__d3voucherexpirationdate->value|date_format:"%d.%m.%Y"}].
+
+

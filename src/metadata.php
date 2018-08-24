@@ -25,7 +25,7 @@ $aModule = array(
     ,
 
     'thumbnail'    => 'picture.png',
-    'version'      => '4.0.0.0',
+    'version'      => '4.0.0.1',
     'author' => 'D&sup3; Data Development',
     'url' => 'http://www.shopmodule.com',
     'email' => 'support@shopmodule.com',

@@ -20,16 +20,16 @@ class d3birthdayvoucher_update extends d3install_updatebase
 
     public $aRenameTables = array();
 
-    public $sModRevision = '260';
+    public $sModRevision = '265';
     public $sModKey = 'd3birthdayvoucher';
     public $sModName = 'Geburtstagsgutscheine';
-    public $sModVersion = '4.0.0.0';
-    public $sModBaseConfKey = '9arv2==YzNXSDI1Zm9OY0dVaHc5RE9hcktJWHJnVzF4UUVmcFVDQ2F3YVd3OFMyUE5VRkNQRkNiQzY2M
-1hnL3NkbnJ6YUVtb0lkY0JRazJ3eG9SaFZoYTVMTTVxWEdOK1NIbDRmWmJOaDNtSllORElCYWtGV05ma
-kxFUklBWExVeFZCOCtCWlN1SktzcDhIcmJDaktTd3dXLzhkbHRIZlQ5TnZQdkxZcldSV2NtRVYyNVJ3M
-GFVUTgwcXJYNFJwMDJPQzZWYjNJdmdSa2Q3eFlteUVlYWVhUkZjOW5mS2x6TU5meDlENjU5K2lVZFJtY
-3lucDNFTW5yVjhqbFBWQmZBbmRraXFmWk9HUW9Gd0tQK3QvVHJ1QzEvdi9sY2RWSUExYzUwOFQ0S0ZRd
-0pXb3cwUVdVUFozTk1XbUg1TGNvR05VeVNpVUM3WVQ5WmVoSUNqUUxuSzh3UElnPT0=';
+    public $sModVersion = '4.0.0.1';
+    public $sModBaseConfKey = 'fYgv2==ZjZmL2ZqYlBCY0ZoOTJtNFUxUFFDKzluYUplWFBsbzBDb3AzK1pLVElCZERxbmlhSGZhdzF2Z
+itYZHErYkhKazRLTDZtNVFycVdQbllyMVhsdEpNc3ZBZ1BVUWVNYWJ4NVAvcjZqdkNnSXVGd1FEaGRzM
+VRiVFQzc05uc0VPT2hoV2xKWlk1ck1tVVlxalFwOWZWZFA4YUFxVlZ6aUxObXpwbkQ1R0hKMjdwOEEva
+3lCbGNuSWJBajdtWmRiem04WWlhYVlVbFRmRTA0eHNTbzdmUDl3RCt5bUQ5enZ1cFZvdUE4Ky9PdTNHe
+C9nZmQ5V0ErV1hoMUpwSksrajU2ZjZpSW0xYWg0MGFFWmdZcElzMDRndHZFU3R4MFZzT3JFc2xHRFBjV
+0lZMXhtS2pGN2cvM2dqL0R3ak1CcFZSR2FMTC9pR0FPRmIxYVNzKzBVRnV2UFVRPT0=';
 
     public $sRequirements ='';
 

@@ -2,7 +2,7 @@
 Bereiten Sie Ihrem Kunden mit einem automatisch generierten Geburtstagsgutschein eine Freude.
 
 ## Systemanforderungen:
-- installierter OXID eShop
+- installierter OXID eShop V6
 - PHP-Version, für die Installationspakete verfügbar sind
 - Installation via Composer
 - ionCubeLoader

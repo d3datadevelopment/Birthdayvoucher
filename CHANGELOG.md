@@ -1,3 +1,6 @@
+4.0.0.1 24.08.2018
+- Test auf OXID 6.0.3 / 6.1.0
+
 4.0.0.0 04.07.2018
 - Umarbeitung für OXID 6
 

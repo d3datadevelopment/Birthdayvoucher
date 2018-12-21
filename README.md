@@ -12,5 +12,6 @@ Die jeweils geforderten Versionen und sonstige Anforderungen entnehmen Sie bitte
 
 ## Installation:
 
-Verwenden Sie zur Installation bitte immer unser Quellenverzeichnis unter https://satis.oxidmodule.com.
+    composer require d3/birthdayvoucher
+    
 Eine detaillierte Installationsanleitung finden Sie im docs-Verzeichnis dieses Pakets.
